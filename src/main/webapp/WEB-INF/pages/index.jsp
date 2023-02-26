@@ -6,7 +6,7 @@
 </head>
 <body>
 	<script type="text/javascript">
-		document.location.href = "settings/qx/user/login.html";
+		document.location.href = "settings/qx/user/tologin.do";
 	</script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crmProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>crmProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="crmProject.war">
+      <element id="artifact" artifact-name="crmProject:war exploded" />
+    </root>
+  </artifact>
+</component>

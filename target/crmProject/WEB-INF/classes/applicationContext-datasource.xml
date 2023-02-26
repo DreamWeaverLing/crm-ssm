@@ -34,7 +34,7 @@
     </bean>
     <!-- 配置事务 -->
     <aop:config>
-        <aop:pointcut expression="execution(* com.bjpowernode.crm..service.*.*(..))" id="allMethodPointcut"/>
+        <aop:pointcut expression="execution(* com.blackwings.crm..service.*.*(..))" id="allMethodPointcut"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="allMethodPointcut"/>
     </aop:config>
     <tx:advice id="txAdvice" transaction-manager="transactionManager">
