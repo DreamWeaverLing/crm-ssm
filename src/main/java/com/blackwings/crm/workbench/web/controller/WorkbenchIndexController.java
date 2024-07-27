@@ -5,17 +5,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class WorkbenchIndexController {
-    @RequestMapping("workbench/index.do")
+    @RequestMapping("/workbench/index.do")
     public String index(){
         return "workbench/index";
     }
 
-    @RequestMapping("main/index.do")
+    @RequestMapping("/workbench/main/index.do")
     public String mainIndex(){
         return "workbench/main/index";
     }
 
-    @RequestMapping("activity/index.do")
+    @RequestMapping("/workbench/activity/index.do")
     public String activityIndex(){
         return "workbench/activity/index";
     }
